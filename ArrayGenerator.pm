@@ -66,7 +66,7 @@ use warnings;
 
 use HTML::Stream;
 
-our $VERSION = '1.0';
+our $VERSION = '1.0.1';
 
 
 
@@ -168,7 +168,8 @@ sub generate_page {
   $HTML->tag('html'); $HTML->nl(2);
   $HTML->tag('head'); $HTML->nl;
   $HTML->tag('center');
-  $HTML->tag('title' => $_hash{'title'} );
+  $HTML->tag('title');
+  $HTML->text( $_hash{'title'} );
   $HTML->tag('_title');
   $HTML->tag('_center'); $HTML->nl;
   $HTML->tag('_head'); $HTML->nl(2);

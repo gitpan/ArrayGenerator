@@ -1,4 +1,9 @@
 Revision history for Perl extension HTML::ArrayGenerator.
 
+1.0.1	Tue 7-22-2003 23:40
+	
+	Fixed a bug in the generation of a HTML page.
+	The page's title didn't appeared in the page.
+	
 1.0	Thu 7-10-2003 0:35
 
